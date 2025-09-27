@@ -1,16 +1,27 @@
-# React + Vite
+# React Increment-Decrement Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React app built with Vite that demonstrates a basic counter with increment, decrement, and reset functionality. It features dynamic styling where the counter value changes color based on whether it is positive or negative. The purpose of this project is to practice React basics such as state management with useState and inline styling.
 
-Currently, two official plugins are available:
+## Features
+- Increment counter
+- Decrement counter
+- Reset counter
+- Dynamic color change for positive and negative values
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Clone the repository:
+   git clone https://github.com/phantekzy/react-increment-decrement.git
+2. Navigate into the project folder:
+   cd react-increment-decrement
+3. Install dependencies:
+   npm install
+4. Start the development server:
+   npm run dev
 
-## React Compiler
+## Usage
+- Click the "+" button to increase the counter.
+- Click the "-" button to decrease the counter.
+- Click the "RESET" button to reset the counter to zero.
+- The counter text will be green for positive numbers and red for negative numbers.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
